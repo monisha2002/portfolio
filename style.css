@@ -1,0 +1,720 @@
+* {
+  box-sizing: border-box;
+}
+section,
+header {
+  background-color: rgb(15, 15, 49);
+}
+
+section {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+section,
+footer {
+  margin: 0;
+  padding: 1px;
+}
+
+.name {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-left: 28px;
+  font-weight: 900;
+  font-size: 18px;
+  border-bottom-style: solid;
+  border-bottom-color: greenyellow;
+  border-bottom-width: 4px;
+
+  width: fit-content;
+}
+
+.tiles {
+  float: right;
+  overflow: hidden;
+  text-align: center;
+  font-size: 25px;
+  margin-right: 25px;
+  position: relative;
+  top: -60px;
+  padding-bottom: 20px;
+}
+
+.tiles a {
+  margin: 20px;
+  color: rgb(168, 165, 165);
+  text-decoration: none;
+  border-bottom-style: solid;
+  padding-bottom: 10px;
+  width: fit-content;
+  border-bottom-width: 6px;
+  border-bottom-color: greenyellow;
+  font-family: "Roboto";
+}
+
+.landing-page .image {
+  margin-left: 1000px;
+  margin-right: 130px;
+  margin-top: -305px;
+
+  padding: 1px;
+  outline-style: solid;
+  outline-color: black;
+  border: black;
+
+  border-radius: 2px;
+  outline-width: 15px;
+  overflow: hidden;
+}
+
+.Hello {
+  color: white;
+  margin-top: 180px;
+  font-size: 40px;
+  margin-left: 300px;
+}
+
+.description {
+  color: grey;
+  font-size: 25px;
+  font-family: "Roboto";
+}
+.description .first-line {
+  margin-left: 356px;
+}
+.description .second-line {
+  margin-left: 410px;
+}
+
+.My_Projects a {
+  transition: transform 0.2s;
+  margin-top: 60px;
+  margin-left: 440px;
+  background-color: #4fa39f;
+  border-radius: 40px;
+  border: 0;
+  font-family: "Roboto";
+  font-weight: bolder;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 16px 31px;
+  text-decoration: none;
+}
+
+.social {
+  display: inline-block;
+  margin: 20px;
+  margin-top: -320px;
+}
+
+.fb,
+.ig,
+.ln,
+.gh,
+.tt {
+  display: table-cell;
+  width: 65px;
+  margin-bottom: 5px;
+}
+.gh {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.tt {
+  width: 71px;
+  margin-left: -3px;
+  margin-top: -3px;
+  border-radius: 18px;
+}
+
+.fb,
+.ln {
+  border-radius: 10px;
+}
+
+.education .main-education {
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-top: 18px;
+  color: black;
+  font-weight: bolder;
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  font-family: "Roboto";
+  border-bottom-color: grey;
+  border-bottom-width: 3px;
+}
+
+.education .class-10 {
+  margin-top: 25px;
+  display: inline-block;
+  padding-left: 90px;
+  padding-right: 50px;
+}
+
+.college {
+  margin-left: 150px;
+}
+
+.education .class-12 {
+  margin-left: 240px;
+}
+
+.college .collegeicon {
+  margin-left: 70px;
+}
+
+.class-12-icon {
+  margin-left: 35px;
+}
+
+.main {
+  font-family: "Roboto";
+  color: darkblue;
+  font-weight: 700;
+  font-size: large;
+}
+
+.name-of-college {
+  color: rgb(42, 82, 143);
+  font-family: "Roboto";
+}
+
+.class-10-icon {
+  margin-left: 38px;
+}
+
+.SKILLS .skill-heading {
+  padding-top: 18px;
+  color: black;
+  font-weight: bolder;
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  font-family: "Roboto";
+  border-bottom-color: grey;
+  border-bottom-width: 3px;
+  margin-left: 10px;
+  padding-left: 20px;
+}
+
+.main-web-design {
+  margin-left: 20px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.main-programming {
+  margin-left: 350px;
+  margin-top: -690px;
+  margin-bottom: 500px;
+}
+
+.main-gd {
+  margin-left: 700px;
+  margin-top: -1000px;
+  margin-bottom: 500px;
+}
+
+.main-tools {
+  margin-left: 1100px;
+  margin-top: -1087px;
+  margin-bottom: 20px;
+}
+
+.web-designing-logo {
+  margin-left: 160px;
+}
+
+.coding-logo {
+  margin-top: 48px;
+  margin-left: 190px;
+}
+.tools-logo {
+  margin-top: 40px;
+  margin-left: 170px;
+}
+
+.graphic-designing-logo {
+  margin-left: 208px;
+  margin-top: -45px;
+}
+
+.html-css-icons {
+  margin-left: 50px;
+  padding-left: 33px;
+  padding-right: 20px;
+  width: 280px;
+  height: 250px;
+  background-color: antiquewhite;
+}
+
+.HTML_logo {
+  margin-top: 80px;
+}
+
+.CSS_logo {
+  padding-top: 2px;
+  margin-left: 42px;
+}
+
+.web-designing-2 {
+  margin-left: 50px;
+
+  width: 280px;
+  height: 220px;
+  background-color: rgb(199, 157, 80);
+  padding-top: 9px;
+  font-family: "Roboto";
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.web-designing-heading {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 900;
+  font-size: 23px;
+}
+
+.programming-icons {
+  margin-top: -13px;
+  margin-left: 85px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 280px;
+  height: 250px;
+  background-color: antiquewhite;
+}
+.java {
+  margin-left: 70px;
+  margin-top: 60px;
+}
+
+.programming-2 {
+  margin-left: 85px;
+  width: 280px;
+  height: 220px;
+  background-color: rgb(199, 157, 80);
+  padding-top: 9px;
+  font-family: "Roboto";
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.gd-icons {
+  margin-top: -49px;
+  margin-left: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 280px;
+  height: 250px;
+  background-color: antiquewhite;
+}
+
+.ps {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.ai {
+  margin-top: 20px;
+  margin-left: 84px;
+}
+
+.xd {
+  margin-left: 149px;
+  margin-top: -167px;
+}
+
+.ai-icon {
+  border-radius: 10px;
+}
+
+.gd-2 {
+  margin-left: 100px;
+  width: 280px;
+  height: 220px;
+  background-color: rgb(199, 157, 80);
+  padding-top: 9px;
+  font-family: "Roboto";
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tools-icon {
+  margin-top: -2px;
+  margin-left: 65px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 280px;
+  height: 250px;
+  background-color: antiquewhite;
+}
+
+.tools-icon .github-logo {
+  padding-top: 42px;
+  margin-left: 16px;
+}
+
+.vs-logo {
+  margin-left: 147px;
+  margin-top: -180px;
+}
+
+.intellij-logo {
+  margin-top: 34px;
+  margin-left: 20px;
+}
+
+.git-logo {
+  margin-left: 150px;
+  margin-top: -71.5px;
+}
+
+.tools2 {
+  margin-left: 65px;
+  width: 280px;
+  height: 220px;
+  background-color: rgb(199, 157, 80);
+  padding-top: 9px;
+  font-family: "Roboto";
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.github-bg {
+  background-color: white;
+  border-radius: 3px;
+}
+
+.languages-heading {
+  font-family: "Roboto";
+  margin-top: 50px;
+  margin-left: 10px;
+  padding-left: 20px;
+
+  border-bottom-style: solid;
+  padding-top: 18px;
+  color: black;
+  font-weight: bolder;
+  padding-bottom: 33px;
+  border-bottom-style: solid;
+  font-family: "Roboto";
+  border-bottom-color: grey;
+  border-bottom-width: 3px;
+}
+
+.name-of-languages li {
+  display: inline-block;
+}
+
+.eng {
+  margin-left: 115px;
+  font-weight: 900;
+  padding-top: 30px;
+  font-size: 0.6cm;
+  color: darkblue;
+  font-family: "Roboto";
+}
+
+.hin {
+  margin-left: 1000px;
+  font-weight: 900;
+  font-family: "Roboto";
+  font-size: 0.6cm;
+  color: darkblue;
+}
+
+.langauges-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+}
+
+.interests div {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 0.5cm;
+  font-family: "Roboto";
+  color: darkblue;
+}
+
+.reading,
+.language-learning,
+.cooking,
+.sports {
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.cooking {
+  margin-left: 220px;
+}
+
+.volunteering {
+  margin-top: 100px;
+  margin-left: 400px;
+}
+
+.sports {
+  margin-left: 170px;
+}
+
+.language-learning {
+  margin-left: 240px;
+  margin-right: 60px;
+}
+
+.first-align {
+  margin-left: 50px;
+}
+
+.volunteering,
+.travel,
+.music,
+.art {
+  margin-left: 210px;
+}
+
+.travel {
+  margin-left: 210px;
+}
+
+.music {
+  margin-top: 100px;
+  margin-left: 280px;
+}
+
+.art {
+  margin-left: 220px;
+}
+
+.musical-icon {
+  margin-left: 57px;
+}
+
+.second-layer {
+  margin-top: -60px;
+}
+
+.heart {
+  margin-left: 35px;
+}
+
+.travel-icon {
+  margin-left: 20px;
+}
+
+.art-icon {
+  margin-left: 26px;
+}
+
+.strengths li {
+  margin-left: 115px;
+  font-weight: 900;
+  padding-top: 30px;
+  font-size: 0.6cm;
+  color: darkblue;
+  font-family: "Roboto";
+  display: inline-block;
+}
+
+.first-ol .b {
+  margin-left: 200px;
+}
+
+.first-ol .c {
+  margin-left: 200px;
+}
+
+.first-ol .d {
+  margin-left: 240px;
+}
+
+.second-ol .f {
+  margin-left: 110px;
+}
+
+.second-ol .h {
+  margin-left: 274px;
+}
+
+.second-ol .i {
+  margin-left: 205px;
+}
+
+.name-form .name-align {
+  margin-left: 600px;
+  margin-top: 40px;
+  height: 50px;
+  border-radius: 40px;
+
+  border-color: darkred;
+  border-radius: 40px;
+  border-width: 2.5px;
+}
+
+.email .email-align {
+  margin-top: 5px;
+  height: 50px;
+  margin-left: 570px;
+  border-width: 2.5px;
+  border-radius: 50px;
+  border-color: darkred;
+}
+
+.message .message-info {
+  margin-top: 10px;
+  margin-left: 550px;
+  border-color: darkred;
+  border-radius: 10px;
+  border-width: 3px;
+}
+
+.email ::placeholder,
+.name-form ::placeholder {
+  color: rgba(139, 0, 0, 0.575);
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+.message ::placeholder {
+  color: rgba(139, 0, 0, 0.575);
+  font-size: 0.7cm;
+}
+
+.contact-form {
+  background-color: rgba(186, 245, 245, 0.589);
+}
+
+.user-1 {
+  margin-top: -38px;
+  margin-left: 970px;
+}
+
+.user-2 {
+  margin-top: -40px;
+  margin-left: 1000px;
+}
+
+.scroll-to-top img {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.programming-heading {
+  font-weight: 900;
+  font-size: 23px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.gd-heading {
+  text-decoration: underline;
+  font-weight: 900;
+  font-size: 23px;
+  text-align: center;
+}
+
+.tools-heading {
+  text-decoration: underline;
+  font-weight: 900;
+  font-size: 23px;
+  text-align: center;
+}
+
+.programming-description,
+.gd-description,
+.tools-description,
+.web-designing-description {
+  margin-top: 40px;
+  color: rgb(12, 17, 59);
+  text-align: center;
+}
+
+.My_Projects :hover {
+  background-color: #53b844;
+}
+
+.My_Projects a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social a {
+  transition: transform 0.1s;
+}
+.ln:hover,
+.ig:hover,
+.fb:hover,
+.gh:hover,
+.tt:hover,
+.reading:hover,
+.cooking:hover,
+.language-learning:hover,
+.sports:hover,
+.volunteering:hover,
+.travel:hover,
+.music:hover,
+.art:hover {
+  transform: scale(1.22); /* (150% zoom)*/
+}
+
+.class-10-icon:hover,
+.class-12-icon:hover,
+.collegeicon:hover,
+.langauges-icon:hover,
+.web-designing-logo:hover,
+.coding-logo:hover,
+.graphic-designing-logo:hover,
+.tools-logo:hover {
+  background-color: #57b7e4fd;
+  border-radius: 10px;
+}
+
+.class-10-icon,
+.class-12-icon,
+.collegeicon,
+.langauges-icon,
+.web-designing-logo,
+.coding-logo,
+.graphic-designing-logo,
+.tools-logo {
+  cursor: grab;
+}
+
+.only-to-align img {
+  margin-bottom: 11px;
+}
+
+.interests img {
+  transition: transform 0.1s;
+}
+
+.link1,
+.link2,
+.link3 {
+  color: grey;
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+}
+
+.link1:hover,
+.link2:hover,
+.link3:hover {
+  transform: scale(1.2);
+}
